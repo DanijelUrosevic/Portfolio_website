@@ -1,5 +1,6 @@
 import React from "react";
-import { FaTelegram, FaFiverr } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { SiFiverr } from "react-icons/si";
 
 function Footer() {
   return (
@@ -25,7 +26,7 @@ function Footer() {
           rel="noreferrer"
           className="text-white"
         >
-          <FaFiverr />
+          <SiFiverr />
         </a>
       </span>
     </div>
