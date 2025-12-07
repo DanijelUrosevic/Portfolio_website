@@ -1,8 +1,5 @@
 import React from "react";
-import { BsGithub } from "react-icons/bs";
-import { RiTwitterXFill } from "react-icons/ri";
-import { FaLinkedinIn } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
+import { FaTelegram, FaFiverr } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -15,32 +12,20 @@ function Footer() {
       </p>
       <span className="flex items-center justify-center gap-7 m-2">
         <a
+          href="https://t.me/DanijelU"
           target="_blank"
           rel="noreferrer"
           className="text-white"
         >
-          <BsGithub />
+          <FaTelegram />
         </a>
         <a
+          href="https://www.fiverr.com/danijelurose188?source=gig_cards&referrer_gig_slug=get-dex-defi-dapp-like-gmx-camelot-dex-pancakeswap-velodrome-solidly&ref_ctx_id=28813e5de53d491fbea3ff380fcd9ed9&imp_id=64fab53f-91a3-4c15-8245-4874b7455d5d"
           target="_blank"
           rel="noreferrer"
           className="text-white"
         >
-          <RiTwitterXFill />
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          className="text-white"
-        >
-          <FaLinkedinIn />
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          className="text-white"
-        >
-          <AiFillInstagram />
+          <FaFiverr />
         </a>
       </span>
     </div>
