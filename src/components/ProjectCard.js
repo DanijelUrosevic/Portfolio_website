@@ -1,15 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Tilt from "react-parallax-tilt";
-function ProjectCard({ name, about, image, note }) {
+function ProjectCard({ name, about, image, images, note }) {
+  // Support both single image and multiple images
+  const imageArray = images || (image ? [image] : []);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    if (imageArray.length <= 1) return;
+
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        (prevIndex + 1) % imageArray.length
+      );
+    }, 1000); // Change image every 1 second
+
+    return () => clearInterval(interval);
+  }, [imageArray.length]);
+
+  const currentImage = imageArray[currentImageIndex];
+
   return (
     <section className="text-gray-200 body-font  rounded-lg">
       <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <Tilt>
             <img
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded transition-opacity duration-500"
               alt="project"
-              src={image}
+              src={currentImage}
             />
           </Tilt>
         </div>
