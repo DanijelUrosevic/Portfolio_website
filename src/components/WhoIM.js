@@ -15,15 +15,13 @@ function WhoIM() {
   };
 
   const imgList = [
-    {url : "./how-to-create-erc20-token.jpg"},
-    {url : "./Completes-Mainnet-Launch_.jpg"},
-    {url : "./cosmos-sdk.jpg"},
-    {url : "./Defi_dapp.jpg"},
-    {url : "./NFT_marketplace.jpg"},
-    {url : "./solana-nft-marketplace-development.jpg"},
-    {url : "./solana-price.jpg"},
-    {url : "./Terra_class.jpg"},
-    {url : "./Token-2022.png"}
+    {url : "./how-to-create-erc20-token.png"},
+    {url : "./Completes-Mainnet-Launch_.png"},
+    {url : "./cosmos-sdk.png"},
+    {url : "./Defi_dapp.png"},
+    {url : "./NFT_marketplace.png"},
+    {url : "./solana-nft-marketplace-development.png"},
+    {url : "./solana-price.png"}
   ]
 
   return (
