@@ -16,7 +16,7 @@ function Footer() {
           href="https://t.me/DanijelU"
           target="_blank"
           rel="noreferrer"
-          className="text-white"
+          className="text-white p-2 rounded transition-colors hover:bg-white/20"
         >
           <FaTelegram />
         </a>
@@ -24,7 +24,7 @@ function Footer() {
           href="https://www.fiverr.com/danijelurose188?source=gig_cards&referrer_gig_slug=get-dex-defi-dapp-like-gmx-camelot-dex-pancakeswap-velodrome-solidly&ref_ctx_id=28813e5de53d491fbea3ff380fcd9ed9&imp_id=64fab53f-91a3-4c15-8245-4874b7455d5d"
           target="_blank"
           rel="noreferrer"
-          className="text-white"
+          className="text-white p-2 rounded transition-colors hover:bg-white/20"
         >
           <SiFiverr />
         </a>
