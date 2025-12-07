@@ -12,7 +12,7 @@ function Project() {
       <div className="z-20 flex items-center justify-center gap-3 m-2 flex-wrap">
       <ProjectCard
           name={"DApp Development"}
-          images={["/project/img1.png", "/project/img2.png", "/project/img3.png"]}
+          images={"/project/img1.png"}
           about={
             "I can help you to develop your DApp Such as DeFi, Dex, NFT MarketPlace and NFT Game on EVM, Solana, SEI and Cosmos chain. And also I can develop smart contract on any chains"
           }
