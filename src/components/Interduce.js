@@ -22,8 +22,7 @@ function Interduce() {
     {url : "./Defi_dapp.png"},
     {url : "./NFT_marketplace.png"},
     {url : "./solana-nft-marketplace-development.png"},
-    {url : "./solana-price.png"},
-    {url : "./Terra_class.png"}
+    {url : "./solana-price.png"}
   ]
 
   return (
